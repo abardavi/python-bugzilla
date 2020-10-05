@@ -17,9 +17,9 @@ import bugzilla
 # users or anything. It's what partner-bugzilla.redhat.com is for!
 URL = "partner-bugzilla.redhat.com"
 bzapi = bugzilla.Bugzilla(URL)
-if not bzapi.logged_in:
-    print("This example requires cached login credentials for %s" % URL)
-    bzapi.interactive_login()
+#if not bzapi.logged_in:
+#    print("This example requires cached login credentials for %s" % URL)
+#    bzapi.interactive_login()
 
 
 # Similar to build_query, build_createbug is a helper function that handles
